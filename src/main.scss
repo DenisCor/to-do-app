@@ -1,0 +1,38 @@
+$BG: #212122;
+$RED: #e2716f;
+$BLUE: #5b84b1;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f0f0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 0.95rem;
+  // min-height: calc(100vh - 40px);
+}
+
+.displayTodo {
+  font-weight: 400 !important;
+  width: 100%;
+  word-break: break-all;
+}
+.line-through {
+  text-decoration: line-through;
+  word-break: break-all;
+  color: #518248;
+}
+
+.todoFooter {
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .todoFooter {
+    font-size: 0.6rem;
+  }
+}
